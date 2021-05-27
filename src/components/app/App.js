@@ -7,6 +7,11 @@ import { LoginPage, PrivateRoute } from '../auth';
 import { AuthProvider } from '../auth/context';
 import NotFoundPage from './NotFoundPage';
 
+// Redux section
+import DashboardPage from './pages/DashboardPage'
+import advertsPage from './pages/advertsPage'
+
+
 function App({ isInitiallyLogged }) {
   const [isLogged, setIsLogged] = React.useState(isInitiallyLogged);
 
